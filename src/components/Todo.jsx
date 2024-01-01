@@ -35,13 +35,13 @@ const Todo = () => {
             <div className='p-4 text-center items-center w-full border-b-2 border-sec flex flex-row justify-between'>
                 <button 
                     onClick={handleImp}
-                    className={`${imp?"":"bg-yellow-600 hover:bg-yellow-700 "}bg-secondary flex-[0.2] hover:bg-opacity-80`}>
+                    className={`${imp?"":"bg-yellow-600 hover:bg-yellow-700 "}bg-secondary flex-[0.25] hover:bg-opacity-80`}>
                    {`${imp?"Close Important":"+ View Important +"}`}
                 </button> 
                 <h1 className=''>
                     ... My Todos ...
                 </h1>
-                <div className='flex-[0.2]' />
+                <div className='flex-[0.25]' />
             </div>
 
             <form className={`${imp?"hidden":"flex"} p-4 w-full  flex-row gap-2 border-b-2 border-sec`}>
